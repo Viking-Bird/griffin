@@ -27,7 +27,7 @@
     {
       "type": "HDFS",
       "config": {
-        "path": "hdfs:///griffin/persist",
+        "path": "hdfs://namenodetest01.bi.10101111.com:9001/griffin/persist",
         "max.persist.lines": 10000,
         "max.lines.per.file": 10000
       }
@@ -36,7 +36,7 @@
       "type": "ELASTICSEARCH",
       "config": {
         "method": "post",
-        "api": "http://es:9200/griffin/accuracy"
+        "api": "http://griffindq02-test1-rgtj1-tj1:9200/griffin/accuracy"
       }
     }
   ],
